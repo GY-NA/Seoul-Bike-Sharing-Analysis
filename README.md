@@ -42,18 +42,18 @@ $$
 \mathcal{L}_{\mathrm{neg}} = \frac{1}{|N|} \sum_{(i,j)\in N} \left[ \max \left( 0,\, m - \left\| \mathbf{z}_i - \mathbf{z}_j \right\|_2 \right) \right]^2
 $$
 
-#### Anchor Loss
+#### Preservation Loss
 Regularizes latent embeddings to remain grounded relative to initial node features $\mathbf{z}^{(0)}$:
 
 $$
-\mathcal{L}_{\mathrm{anchor}} = \frac{1}{n} \sum_{i=1}^{n} \left\| \mathbf{z}_i - \mathbf{z}_i^{(0)} \right\|_2^2
+\mathcal{L}_{\mathrm{preservation}} = \frac{1}{n} \sum_{i=1}^{n} \left\| \mathbf{z}_i - \mathbf{z}_i^{(0)} \right\|_2^2
 $$
 
 #### Objective Function
 The combined total loss function to minimize:
 
 $$
-\mathcal{L} = \mathcal{L}_{\mathrm{pos}} + \lambda \mathcal{L}_{\mathrm{neg}} + \gamma \mathcal{L}_{\mathrm{anchor}}
+\mathcal{L} = \mathcal{L}_{\mathrm{pos}} + \lambda \mathcal{L}_{\mathrm{neg}} + \gamma \mathcal{L}_{\mathrm{preservation}}
 $$
 
 ### Acknowledgement
