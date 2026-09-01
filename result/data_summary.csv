@@ -1,0 +1,4 @@
+time_group,trip_count,unique_od_edges,positive_pairs,negative_pairs
+morning_commute,458929,80154,13549,15600
+non_commute,231311,84115,13569,15600
+evening_commute,607956,157308,13699,15600

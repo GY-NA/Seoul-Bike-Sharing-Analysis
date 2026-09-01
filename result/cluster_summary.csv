@@ -1,0 +1,13 @@
+time_group,cluster,N
+evening_commute,1,826
+evening_commute,2,767
+evening_commute,3,614
+evening_commute,4,913
+morning_commute,1,879
+morning_commute,2,827
+morning_commute,3,609
+morning_commute,4,805
+non_commute,1,857
+non_commute,2,806
+non_commute,3,633
+non_commute,4,824

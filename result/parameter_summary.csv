@@ -1,0 +1,10 @@
+parameter,value
+k_positive,5
+k_negative,5
+embedding_dim,2
+lambda_neg,1
+gamma_anchor,0.1
+margin,2
+K,4
+maxit,50
+random_seed,123
