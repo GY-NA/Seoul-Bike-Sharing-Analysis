@@ -130,7 +130,7 @@ run_contrastive_clustering <- function(od, group_name, Z_init, K) {
     preservation_loss <- mean((Z - Z_init)^2)
     
     #total
-    total_loss <- pos_loss + lambda_neg * neg_loss + gamma_anchor * preservation_loss
+    total_loss <- pos_loss + lambda_neg * neg_loss + gamma * preservation_loss
     
     return(total_loss)
   }
