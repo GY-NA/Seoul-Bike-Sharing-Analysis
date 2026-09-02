@@ -1,4 +1,4 @@
-## Seoul-Bike-Sharing-Analysis-via-Contrastive-Learning-Based-Trajectory-and-Station-Clustering
+## Seoul Bike-Sharing Analysis via Contrastive Learning Based Trajectory and Station Clustering
 
 ### 1. Data Preprocessing
 
